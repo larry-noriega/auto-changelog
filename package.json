@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/larry-noriega/auto-changelog/issues"
   },
-  "homepage": "https://github.com/larry-noriega/auto-changelog#readme"
+  "homepage": "https://github.com/larry-noriega/auto-changelog#readme",
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
 }
